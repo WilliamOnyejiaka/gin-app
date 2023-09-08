@@ -1,0 +1,5 @@
+services:
+  - name: gin-app
+    type: web
+    buildCommand: go build -o gin-app
+    startCommand: ./gin-app
